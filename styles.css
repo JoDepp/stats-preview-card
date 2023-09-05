@@ -1,3 +1,42 @@
 body {
-    font-family: 'Outfit', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    background-color: hsl(233, 47%, 7%);
+    color:white;
+    min-height: 60em;
+    text-align: center;
+
+}
+
+main {
+    background-color:hsl(244, 38%, 16%);
+    padding: 0;
+    margin: 1.5rem;
+    border-radius: 10px;
+    max-width: 20rem;
+    overflow: hidden;
+    
+}
+
+
+  img .image {
+    background-color:hsl(277, 64%, 61%);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    mix-blend-mode: multiply;
+    opacity: 0.7;
+   
+
+}
+
+span {
+    color: hsl(277, 64%, 61%)
+}
+
+h1 {
+    font-family: 'Lexend Deca', sans-serif;
 }
